@@ -21,8 +21,14 @@ import {Closure, CompoundSExp, isEmptySExp, isSymbolSExp, SymbolSExp, Value} fro
 import {is} from "ramda";
 
 const TYPES_FILE: string = ".\\L3Types.py"
-const INPUT_FILE: string = "C:\\Degree\\Year 2\\Sem 2\\PPL\\assignment-2-ppl\\src\\q2.l3"
-const OUTPUT_FILE: string = "C:\\Degree\\Year 2\\Sem 2\\PPL\\Translator\\q2.py"
+const INPUT_FILE: string = "ENTER YOUR OWN"
+const OUTPUT_FILE: string = "ENTER YOUR OWN"
+
+
+
+
+
+
 
 const isNotEmptySymbolExp: (e: any) => boolean = (e: any) => isLitExp(e) &&  isSymbolSExp(e.val)
 const isEmptySymbolExp: (e: any) => boolean = (e: any) => isLitExp(e) && isEmptySExp(e.val)
